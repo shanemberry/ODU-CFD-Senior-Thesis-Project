@@ -1,0 +1,162 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{PhysicsSeniorThesis}
+\usepackage{indentfirst}
+\usepackage{subfiles} % best to load this package last
+\begin{document}
+\title{A Covariant Description of the Deuteron and a bunch of other stuff}
+\author{A. Student}
+\principaladviser{John Doe}
+\member{Jane Roe}
+\member{Albert Einstein}
+%\copyrightfalse
+\submitdate{June 2012}
+
+\abstract{
+An introduction to the use of Bethe-Salpeter and
+quasipotential equations in the description of electron scattering
+from the deuteron is provided. The basic formalism and many
+technical issues are introduced in the context of a simple scalar
+theory. Results for bound-state wave functions and scattering
+phases shifts for a variety of quasipotential prescriptions are
+presented and qualitative characteristics of these solutions are
+discussed. The elastic form factors for the bound state in this
+model are calculated using the spectator or Gross equation. The
+calculations are then extended to account for the complexities
+associated with nucleon spin and results are presented for the
+elastic structure functions of the deuteron using the spectator
+equation. This calculation is shown to produce a good description
+of elastic electron scattering from the deuteron over the range of
+momentum transfers for which data are available.
+}
+
+
+\beforepreface
+\prefacesection{Acknowledgments}
+    I would like to thank...
+\afterpreface
+
+\subfile{ch01-intro}
+\subfile{ch02-relativistic-wave-eqs}
+\subfile{ch03-EM-Interactions}
+\subfile{ch04-model-of-deuteron}
+\subfile{ch05-conclusion}
+
+
+\begin{thebibliography}{Bliggs}
+
+\addtocontents{toc}{\vspace*{12pt}}
+
+\addcontentsline{toc}{chapter}{BIBLIOGRAPHY}
+%
+\bibitem{KeisterandPolyzou} B. D. Keister and W. N. Polyzou, Adv. Nucl.
+                  Phys. {\bf 20}, 225 (1961).
+%
+\bibitem{Chung} P. L. Chung, F. Coester, B. D. Keister, and W. N.
+                 Polyzou, Phys. Rev. C {\bf 37}, 2000 (1988).
+%
+\bibitem{BetheSalpeter} E. E. Salpeter and H. A. Bethe, Phys. Rev. {\bf 84},
+1232 (1951).
+%
+\bibitem{Tjon} J. Fleischer and J. A. Tjon, Nucl. Phys. {\bf B84},
+375 (1975); Phys. Rev. D {\bf 15}, 2537 (1977); {\bf 21}, 87 (1980).
+E. van Faassen and J. A. Tjon, Phys. Rev. C {\bf
+28},2354 (1983); {\bf 30}, 285 (1984); {\bf 33}, 2105 (1986).
+%
+\bibitem{Zuilhof} M. J. Zuilhof and J. A. Tjon, Phys. Rev. C {\bf 22}, 2369
+            (1980); {\bf 24}, 736 (1981).
+%
+\bibitem{Umnikov} A. Yu. Umnikov and F. C. Khanna, Phys. Rev. C {\bf 49}
+                2311 (1994).
+%
+\bibitem{BSLT} R. Blankenbecler and R. Sugar, Phys. Rev. {\bf 142}, 1051
+               (1966); A. A. Logunov and A. N. Tavkhelidze, Nuovo Cimento
+               {\bf 29}, 380 (1963).
+%
+\bibitem{Thompson} R. H. Thompson, Phys. Rev. D {\bf 1}, 1738 (1970).
+%
+\bibitem{Todorov} I. T. Todorov, Phys. Rev. D {\bf 10}, 2351 (1971).
+%
+\bibitem{Erkelenz} K. Erkelenz and K. Holide, Nucl. Phys. {\bf A194},
+                  161 (1972).
+%
+\bibitem{Kadychevsky} V. G. Kadychevsky, Nucl. Phys. {\bf B6}, 125 (1968).
+%
+\bibitem{GrossA} F. Gross, Phys. Rev. {\bf 186}, 1448 (1969); Phys. Rev. D  {\bf 10},
+               223 (1974).
+%
+\bibitem{GrossB} F. Gross,Phys. Rev. C {\bf 26}, 2203 (1982).
+%
+\bibitem{FVOHA} F. Gross, J.~W.~Van~Orden and K.~Holinde, Phys. Rev. C {\bf 41},
+                R1909 (1990).
+%
+\bibitem{FVOHB} F. Gross, J.~W.~Van~Orden and K.~Holinde, Phys. Rev. C {\bf 45},
+                 2094 (1992).
+%
+\bibitem{BuckandG} W. W. Buck and F. Gross, Phys. Rev. D {\bf 20}, 2361
+%
+\bibitem{ACG} R. E. Arnold, C. E. Carlson, and F. Gross, Phys. Rev. C
+                   {\bf21}, 2361 (1980).
+%
+\bibitem{Hummel} E. Hummel and J. A. Tjon, Phys. Rev. Lett. {\bf 63},
+1788 (1989).
+%
+\bibitem{WallaceandM} S. J. Wallace and V. B. Mandelzweig, Nucl. Phys.
+                     {\bf A503}, 673 (1989).
+%
+\bibitem{DevineandW} N. K. Devine and S. J. Wallace, Phys. Rev. C {\bf 48}, 973
+                     (1993).
+%
+\bibitem{Zhu} X. Zhu, R. Gourishankar, F. C. Khanna, G. Y. Leung, and
+              N. Mobed, Phys. Rev. C {\bf 45}, 959 (1992).
+%
+\bibitem{Fuda} M. G. Fuda, Phys. Rev. D {\bf 44}, 1880 (1991).
+%
+\bibitem{Karmanov} V. A. Karmanov and A. V. Smirnov, Nucl. Phys. {\bf A546},
+                691 (1992).
+%
+\bibitem{Lurie} D. Lurie, {\it Particles and Fields}, (Wiley-Interscience,
+         London, 1968).
+%
+\bibitem{CoesterandRiska} F. Coester and D. O. Riska, Preprint nucl-th
+           9309026.
+%
+\bibitem{BrownandJ} G. E. Brown and A. D. Jackson, {\it The
+Nucleon--Nucleon Interaction} (North--Holland, Amsterdam, 1976).
+%
+\bibitem{GrossBook} F. Gross, {\it Relativistic Quantum Mechanics and Field
+            Theory} (Wiley-Interscience, New York, 1993).
+%
+\bibitem{GrossandRiska} F. Gross and D. O. Riska, Phys. Rev. C {\bf 36}, 1928
+(1987).
+%
+\bibitem{WardTakahashi} J. C. Ward, Phys. Rev. {\bf 78}, 182 (1950);
+                Y. Takahashi, Nuovo Cimento {\bf 6}, 371 (1957).
+%
+\bibitem{ArndtandRoper} R. A. Arndt and L. D. Roper, Scattering Analysis and
+Interactive Dial-in (SAID) program, Virginia Polytechnic Institute
+and State University.
+%
+\bibitem{Gals71}S.~Galster, H.~Klein, J.~Moritz, K.~H.~Schmidt, and
+D.~Wegener, Nucl. Phys. {\bf B32}, 221 (1971).
+%
+\bibitem{ItoGross} H. Ito and F. Gross, Phys. Rev. Lett. {\bf 71}, 2555 (1993).
+
+
+
+\end{thebibliography}
+
+\subfile{appendix}
+
+
+
+\newpage
+\vita{This is where I tell you about my academic background and list all of my
+accomplishments.}
+
+\vitapage
+
+
+
+\end{document}
